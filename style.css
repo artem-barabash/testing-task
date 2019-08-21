@@ -1,0 +1,271 @@
+#wrapper{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.wrap{
+	max-width: 936px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+.wrap:after{
+	clear: both;
+	display: table;
+	content: "";
+}
+
+body{
+	margin: 0 auto;
+}
+
+
+
+@font-face {
+	font-family: "MyriaPro";
+	src: url("font/MyriadPro-Regular.woff") format('woff');
+}
+
+@font-face {
+	font-family: "HelveticaNeue";
+	src: url("font/HelveticaNeueCyr-Thin.woff") format('woff');
+}
+
+@font-face {
+	font-family: "ProximaNova";
+	src: url("font/ProximaNovaT-Thin.woff") format('woff');
+}
+
+
+@font-face {
+	font-family: "ProximaNova-Semibold";
+	src: url("font/ProximaNova-SemiboldItn.woff") format('woff');
+}
+
+@font-face {
+	font-family: "Tahoma";
+	src: url("font/Tahoma.woff") format('woff');
+}
+
+header{
+	padding: 15px 0 34px 0;
+}
+
+header .wrap{
+	display: flex;
+}
+
+header .logo{
+	padding-left: 70px;
+}
+
+header .logo img{
+	height: 166px;
+	width: 136px;
+}
+
+header .header-caption{
+	margin-left: 11.53%;
+}
+
+.header-caption h3{
+	font-family: "MyriaPro";
+	font-size: 1.0625em;
+	color: #262626;
+	margin:0;
+	margin-right: 20px;
+
+}
+
+.header-caption .header-table{
+	padding-bottom: 24px;
+}
+
+
+.header-caption .acount{
+	font-family: "ProximaNova";
+	font-size: 0.75em;
+	color: #3d4044;
+	padding-top: 10px;
+}
+
+.header-caption #start-btn{
+	border:none;
+	font-family: "HelveticaNeue";
+	background: #fff;
+	color: #4090db;
+	border: 1px solid #4090db;
+	font-size: 0.87em;
+	padding: 9px 11px;
+	border-radius: 3px;
+}
+
+
+.date-block{
+	display: flex;
+}
+
+.date-block p{
+	font-size: 0.67em;
+	font-family: "Tahoma";
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.date-block .datepicker{
+	display: flex;
+	height: 30px;
+}
+
+.datepicker{
+	margin-right: 24px;
+}
+
+.date-block #datepicker1,
+.date-block #datepicker2{
+	border:none;
+	border: 1px solid #cccccc;
+	border-radius: 5px 0 0 5px;
+	font-size: 0.67em;
+	font-family: "HelveticaNeue";
+	padding-left: 10px;
+	color: #000;
+}
+
+
+
+#btn-close-1,
+#btn-close-2{
+	border: none;
+	border-top: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	font-size: 0.875em;
+	background: #ebebeb;
+	color: #666666;
+	border-radius: 0px 5px 5px 0;
+}
+
+.ui-datepicker-trigger{
+	border-top: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+.image-list{
+	background: #fafafa;
+	padding-top: 70px;
+}
+
+.image-list .wrap{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.image-list .image-block{
+	margin: 0 20px 20px 0;
+}
+
+.image-block {
+	height: 292px;
+ 	width: 292px;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: flex-end;
+}
+
+.image-block table{
+	font-family: "ProximaNova-Semibold";
+	font-size: 0.67em;
+	color: #fff;
+	padding-left: 21px;
+	margin-bottom: 33px;
+}
+
+.image-block table td{
+	padding:10px;
+}
+
+.image-block table td svg{
+	float: left;
+	margin-right: 5px;
+}
+
+.image-block a{
+	text-align: center;
+	text-decoration: none;
+	font-family: "ProximaNova-Semibold";
+	font-size: 0.67em;
+	color: #fff;
+	padding-bottom: 18px;
+}
+.image-block-1{
+ 	background: url('image/image-1.png') no-repeat;
+ 	background-size: 100% 100%;
+}
+.image-block-2{
+ 	background: url('image/image-2.png') no-repeat;
+ 	background-size: 100% 100%;
+}
+.image-block-3{
+ 	background: url('image/image-3.png') no-repeat;
+ 	background-size: 100% 100%;
+}
+.image-block-4{
+ 	background: url('image/image-4.png') no-repeat;
+ 	background-size: 100% 100%;
+}
+.image-block-5{
+ 	background: url('image/image-5.png') no-repeat;
+ 	background-size: 100% 100%;
+}
+.image-block-6{
+ 	background: url('image/image-6.png') no-repeat;
+ 	background-size: 100% 100%;
+}
+.image-block-7{
+ 	background: url('image/image-7.png') no-repeat;
+ 	background-size: 100% 100%;
+}
+.image-block-8{
+ 	background: url('image/image-8.png') no-repeat;
+ 	background-size: 100% 100%;
+}
+.image-block-9{
+ 	background: url('image/image-9.png') no-repeat;
+ 	background-size: 100% 100%;
+}
+
+.load-more{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 74px;
+}
+
+ #load-btn{
+	color: black;
+	font-family: "ProximaNova";
+	font-size: 0.5625em;
+	border: none;
+	background: #fafafa;
+	padding: 10px 30px;
+	border: 1px solid #000000;
+	border-radius: 30px;
+	margin: 0 auto;
+}
+
+
+@media screen and (max-width: 480px){
+	header .wrap{
+		flex-direction: column;
+	}
+	header .logo{
+		margin-bottom: 30px;
+	}
+	.date-block{
+		flex-direction: column;
+	} 
+	.datepicker{
+		margin-bottom: 20px;
+	}
+}
